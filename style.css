@@ -22,3 +22,16 @@ input {
 #trybewarts-header-title {
   align-self: center;
 }
+#evaluation-form{
+  display: flex;
+  width:675px;
+  flex-direction: column;
+}
+main{
+  display: flex;
+}
+
+#trybewarts-forms-logo{
+  width:500px;
+  height:500px;
+}
