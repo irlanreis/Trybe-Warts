@@ -18,3 +18,7 @@ input {
   justify-content: flex-end;
   width: 90%;
 }
+
+#trybewarts-header-title {
+  align-self: center;
+}
