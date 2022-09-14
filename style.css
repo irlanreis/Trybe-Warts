@@ -2,6 +2,10 @@ input {
   margin: 5px;
 }
 
+main {
+  display: flex;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -22,16 +26,18 @@ input {
 #trybewarts-header-title {
   align-self: center;
 }
-#evaluation-form{
+
+#evaluation-form {
   display: flex;
-  width:675px;
+  width: 675px;
   flex-direction: column;
 }
-main{
-  display: flex;
+
+#trybewarts-forms-logo {
+  width: 500px;
+  height: 500px;
 }
 
-#trybewarts-forms-logo{
-  width:500px;
-  height:500px;
+.input-container {
+  display: flex;
 }
