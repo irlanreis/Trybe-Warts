@@ -1,5 +1,3 @@
-const loginBtnElement = document.getElementById('login-button');
-
 function validLoginInfo() {
   const emailInputElement = document.getElementById('email-input');
   const passwordInputElement = document.getElementById('password-input');
@@ -11,4 +9,10 @@ function validLoginInfo() {
   }
 }
 
-loginBtnElement.addEventListener('click', validLoginInfo);
+function submitButtonStateSwitch() {
+  const submitBtnElement = document.getElementById('submit-btn');
+  submitBtnElement.disabled = !submitBtnElement.disabled;
+}
+
+document.getElementById('login-button').addEventListener('click', validLoginInfo);
+document.getElementById('agreement').addEventListener('click', submitButtonStateSwitch);
