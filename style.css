@@ -4,12 +4,15 @@ input {
 
 main {
   display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 60px;
+  justify-content: center;
 }
 
 .trybewarts-header-logo {
@@ -43,8 +46,22 @@ main {
 }
 
 body {
-  background-image: url('img.jpg');
+  background-image: url('img.png');
   color: darkseagreen;
   font-family: sans-serif;
   font-weight: 700;
 }
+
+#textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  resize: none;
+  color: white;
+  font-size: large;
+}
+
+#input-name , #input-email , #input-lastname , #house {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
